@@ -25,6 +25,9 @@ var AutoUpdater = require('auto-updater');
     });
  
     // Start checking
-    autoupdater.fire('check');
+    
 
-    setInterval(() => console.log('checking Updates'), 5000);
+    setInterval(() => {
+        autoupdater.fire('check');
+        console.log('checking Updates');
+    }, 5000);
