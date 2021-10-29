@@ -1,6 +1,10 @@
 {
   "name": "test-auto-update",
   "version": "1.0.0",
+  "auto-updater":{
+    "repo":"/MeddahAbdellah/test-auto-update",
+    "branch":"master"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
