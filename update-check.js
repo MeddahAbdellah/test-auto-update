@@ -3,7 +3,6 @@ var AutoUpdater = require('auto-updater');
     var autoupdater = new AutoUpdater({
      autoupdate: false,
      checkgit: true,
-     contenthost: 'https://github.com/MeddahAbdellah/test-auto-update.git',
     });
  
     autoupdater.on('check.out-dated', function(v_old, v) {
