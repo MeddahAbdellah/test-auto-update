@@ -1,6 +1,6 @@
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: 'https://my-app-abdallah.com/update', secret: '' })
+var handler = createHandler({ path: 'https://d832-2001-861-30c3-2870-e10c-b2df-6a50-9792.ngrok.io', secret: '' })
 
 http.createServer(function (req, res) {
   handler(req, res, function (err) {
